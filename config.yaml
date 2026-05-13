@@ -1,0 +1,16 @@
+dataset:
+  name: "daniel3303/StoryReasoning"
+  max_len: 30
+  vocab_size: 10000
+  embedding_dim: 128
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
+  validation_split: 0.2
+
+model:
+  lstm_units: 128
+  dropout: 0.3
+  num_classes: 5
